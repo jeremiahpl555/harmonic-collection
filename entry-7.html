@@ -14,13 +14,13 @@
 <script>
   function myFunction(){
     let text;
-    let person = prompt("Did you watch the movie Joker: Folie à Deux? Yes or no?");
-    if(person=="yes") {
-      text = "So did I. Here is my review of the film and overall experience. :3";
-    } if(person=="no") {
+    let person = prompt("Did you watch the movie Joker: Folie à Deux? Yes or no?:","yes");
+     if(person== no||person== "no") {
       text ="Understandable! :) Proceed ahead or read my review which contains SPOILERS!! You have been warned.";
     } if (persom==null||person=="") {
       text = "User cancelled the prompt.";
+    } else {
+      text ="So did I. Here is my review of the film and overall experience. :3"
     }
     document.getElementById("demo").innerHTML = text;
   }
