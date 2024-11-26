@@ -26,4 +26,24 @@ body {
     </div>    
 
 
+    a#back-to-top {
+      border: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 3.5em;
+      width: 3.5em;
+      bottom: -1.75em;
+      right: 0;
+      text-align: center;
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0);
+      border-radius: 47%;
+      display: flex
+    ;
+      align-items: center;
+      justify-content: center;
+      opacity: 1;
+    }
+    
 
